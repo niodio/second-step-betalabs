@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/baby-logo.png"
+      type="image/x-icon"
+      />
+      <!-- Bootstrap CSS -->
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous"
+        />
+        <!--owl css-->
+        <link rel="stylesheet" href="assets/css/owl/owl.carousel.min.css" />
+        <link rel="stylesheet" href="assets/css/owl/owl.theme.default.min.css" />
+        <!-- fonteawesome -->
+        <script src="https://use.fontawesome.com/4adcc40a99.js"></script>
+        <title>My Baby</title>
+      </head>
+      <body>
+        <!-- INICIO CAROUSSEL -->
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner 80vh">
+            <div class="carousel-item active data-bs-interval=1000">
+              <img
+              src="assets/img/baby-praia.jpg"
+              class="d-block w-100 h-80 data-bs-interval=1000"
+              alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+              src="assets/img/urso-roupa.jpg"
+              class="d-block w-100 h-80 data-bs-interval=1000"
+              alt="urso-roupa"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+              src="assets/img/roupas.jpg"
+              class="d-block w-100 h-80 data-bs-interval=1000"
+              alt="..."
+              />
+            </div>
+          </div>
+          <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+          >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+          >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- FIM CAROUSSEL -->
+        <div class="sticky">
+          <!-- somente para fixar nav bar ao rolar scrool -->
+          <!-- INICIO NAVBAR -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-primary bg-gradient">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                <img src="assets/img/baby-logo.png" />
+              </a>
+              <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              >
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html"
+                    >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="categorias.html">Categorias</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                  />
+                  <button class="btn btn-outline-light" type="submit">
+                  Search
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <!-- FIM NAVBAR-->
+          </div><!-- FIM STICKY @FIXAR BARRA -->
+          
+          <!--#INICIO CARDS  -->
+          <div class="wrapper">
+            
+            <div class="wrapper-col-prod">
+              <h3 class="caption">Produtos em destaque na loja:</h3>
+              <div class="wrapper-cards">
+                
+                <div class="card-prod">
+                  <a href="produtos.html">
+                    <img
+                    onclick="getImage()"
+                    id="img"
+                    src="assets/img/baby-praia.jpg"
+                    class="card-prod-img"
+                    name="img"
+                    alt="produtos" />
+                  </a>
+                </div>
+                <div class="card-prod">
+                  <a href="produtos.html">
+                    <img
+                    onclick="getImage()"
+                    id="img"
+                    src="assets/img/urso-roupa.jpg"
+                    class="card-prod-img"
+                    name="img"
+                    alt="..." />
+                  </a>
+                </div>
+                <div class="card-prod">
+                  <a href="produtos.html">
+                    <img
+                    onclick="getImage()"
+                    id="img"
+                    src="assets/img/kiana-bosman.jpg"
+                    class="card-prod-img"
+                    name="img"
+                    alt="..."
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="wrapper-cards">
+                <div class="card-prod">
+                  <a href="produtos.html">
+                    <img
+                    onclick="getImage()"
+                    id="img"
+                    src="assets/img/baby-praia.jpg"
+                    class="card-prod-img"
+                    name="img"
+                    alt="..." />
+                  </a>
+                </div>
+                <div class="card-prod" >
+                  <a href="produtos.html">
+                    <img
+                    onclick="getImage()"
+                    id="img"
+                    src="assets/img/urso-roupa.jpg"
+                    class="card-prod-img"
+                    name="img"
+                    alt="..." />
+                  </a>
+                </div>
+                <div class="card-prod" >
+                  <a href="produtos.html">
+                    <img
+                    onclick="getImage()"
+                    id="img"
+                    src="assets/img/kiana-bosman.jpg"
+                    class="card-prod-img"
+                    name="img"
+                    alt="..."
+                    />
+                  </a>
+                </div>
+                </div> <!-- FIM CARDS -->
+                </div> <!-- Fim wrapper-col -->
+                <!-- inicio mais vendidos -->
+                <div class="wrapper-col-mv">
+                  <h3 class="caption">Mais vendidos</h3>
+                  <div class="wrapper-col-mv">
+                    <ul>
+                      <li>
+                        <img
+                        onclick="getImage()"
+                        id="img"
+                        src="assets/img/kiana-bosman.jpg"
+                        class="card-prod-img-mv"
+                        name="img"
+                        alt="..."
+                        />
+                      </li>
+                      <li>
+                        <img
+                        onclick="getImage()"
+                        id="img"
+                        src="assets/img/urso-roupa.jpg"
+                        class="card-prod-img-mv"
+                        name="img"
+                        alt="..." />
+                      </li>
+                      <li>
+                        <a href="index.html">
+                          <img
+                          onclick="getImage()"
+                          id="img"
+                          src="assets/img/baby-praia.jpg"
+                          class="card-prod-img-mv"
+                          alt="produtos" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- fim mais vendidos -->
+                </div> <!-- fim wrapper-->
+                <!-- INICIO FOOTER -->
+                <footer>
+                  <div class="wrapper-footer bg-primary bg-gradient">
+                    <div class="footer-social">
+                      <a
+                        href="https://wa.me/5534998853940?text=Gostaria%20de%20saber%20mais%20sobre%20os%20produtos"
+                        target="_blank"
+                        >
+                        <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
+                      </a>
+                      <a
+                        href="https://www.facebook.com/acinacio/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                        <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                      </a>
+                      <a
+                        href="https://www.instagram.com/adelson.inacio/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                      </a>
+                      <a
+                        href="mailto:acinacio@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                        <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </div>
+                </footer>
+                <!-- FIM FOOTER -->
+                <script>
+                var myCarousel = document.querySelector("#myCarousel");
+                var carousel = new bootstrap.Carousel(myCarousel, {
+                interval: 1000,
+                wrap: true,
+                });
+                </script>
+                <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+                <script src="assets/js/script.js"></script>
+                <!-- Optional JavaScript; choose one of the two! -->
+                <!-- Option 1: Bootstrap Bundle with Popper -->
+                <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"
+                ></script>
+                <!-- Option 2: Separate Popper and Bootstrap JS -->
+                <!--
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+                -->
+              </body>
+            </html>
