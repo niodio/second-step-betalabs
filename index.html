@@ -118,181 +118,132 @@
             </div>
           </nav>
           <!-- FIM NAVBAR-->
-          </div><!-- FIM STICKY @FIXAR BARRA -->
-          
-          <!--#INICIO CARDS  -->
-          <div class="wrapper">
-            
-            <div class="wrapper-col-prod">
-              <h3 class="caption">Produtos em destaque na loja:</h3>
-              <div class="wrapper-cards">
-                
+        </div>
+        <!-- FIM STICKY @FIXAR BARRA -->
+        <!--#INICIO CARDS  -->
+        <div class="wrapper">
+          <div class="wrapper-col-prod">
+            <div class="wrapper-col">
+            <h3 class="caption">Produtos em destaque na loja:</h3>
+            <!-- INICIO CARDS -->
+            <div class="wrapper-cards">
+              <div id="cards">
                 <div class="card-prod">
-                  <a href="produtos.html">
+                  <!-- <a href="produtos.html">
                     <img
-                    onclick="getImage()"
+                    onclick="getLink(this)"
                     id="img"
                     src="assets/img/baby-praia.jpg"
                     class="card-prod-img"
                     name="img"
-                    alt="produtos" />
-                  </a>
-                </div>
-                <div class="card-prod">
-                  <a href="produtos.html">
-                    <img
-                    onclick="getImage()"
-                    id="img"
-                    src="assets/img/urso-roupa.jpg"
-                    class="card-prod-img"
-                    name="img"
-                    alt="..." />
-                  </a>
-                </div>
-                <div class="card-prod">
-                  <a href="produtos.html">
-                    <img
-                    onclick="getImage()"
-                    id="img"
-                    src="assets/img/kiana-bosman.jpg"
-                    class="card-prod-img"
-                    name="img"
-                    alt="..."
+                    title="Conjunto de praia outono"
+                    description="Um lindo conjunto para ir à praia e protejer seu pequeno da brisa fria do outono "
+                    alt="produtos"
                     />
-                  </a>
+                  </a> -->
                 </div>
               </div>
-              <div class="wrapper-cards">
-                <div class="card-prod">
-                  <a href="produtos.html">
+              <!-- FIM CARDS -->
+            </div>
+            <!-- Fim wrapper-col -->
+            </div>
+            <!-- inicio mais vendidos -->
+            <div class="wrapper-col-mv">
+              <h3 class="caption">Mais vendidos</h3>
+              <div class="wrapper-col-mv">
+                <ul>
+                  <li>
                     <img
-                    onclick="getImage()"
-                    id="img"
-                    src="assets/img/baby-praia.jpg"
-                    class="card-prod-img"
-                    name="img"
-                    alt="..." />
-                  </a>
-                </div>
-                <div class="card-prod" >
-                  <a href="produtos.html">
-                    <img
-                    onclick="getImage()"
-                    id="img"
-                    src="assets/img/urso-roupa.jpg"
-                    class="card-prod-img"
-                    name="img"
-                    alt="..." />
-                  </a>
-                </div>
-                <div class="card-prod" >
-                  <a href="produtos.html">
-                    <img
-                    onclick="getImage()"
+                    onclick="getLink(this)"
                     id="img"
                     src="assets/img/kiana-bosman.jpg"
-                    class="card-prod-img"
+                    class="card-prod-img-mv"
                     name="img"
                     alt="..."
                     />
-                  </a>
-                </div>
-                </div> <!-- FIM CARDS -->
-                </div> <!-- Fim wrapper-col -->
-                <!-- inicio mais vendidos -->
-                <div class="wrapper-col-mv">
-                  <h3 class="caption">Mais vendidos</h3>
-                  <div class="wrapper-col-mv">
-                    <ul>
-                      <li>
-                        <img
-                        onclick="getImage()"
-                        id="img"
-                        src="assets/img/kiana-bosman.jpg"
-                        class="card-prod-img-mv"
-                        name="img"
-                        alt="..."
-                        />
-                      </li>
-                      <li>
-                        <img
-                        onclick="getImage()"
-                        id="img"
-                        src="assets/img/urso-roupa.jpg"
-                        class="card-prod-img-mv"
-                        name="img"
-                        alt="..." />
-                      </li>
-                      <li>
-                        <a href="index.html">
-                          <img
-                          onclick="getImage()"
-                          id="img"
-                          src="assets/img/baby-praia.jpg"
-                          class="card-prod-img-mv"
-                          alt="produtos" />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- fim mais vendidos -->
-                </div> <!-- fim wrapper-->
-                <!-- INICIO FOOTER -->
-                <footer>
-                  <div class="wrapper-footer bg-primary bg-gradient">
-                    <div class="footer-social">
-                      <a
-                        href="https://wa.me/5534998853940?text=Gostaria%20de%20saber%20mais%20sobre%20os%20produtos"
-                        target="_blank"
-                        >
-                        <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
-                      </a>
-                      <a
-                        href="https://www.facebook.com/acinacio/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >
-                        <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-                      </a>
-                      <a
-                        href="https://www.instagram.com/adelson.inacio/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >
-                        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-                      </a>
-                      <a
-                        href="mailto:acinacio@gmail.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >
-                        <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
-                      </a>
-                    </div>
-                  </div>
-                </footer>
-                <!-- FIM FOOTER -->
-                <script>
-                var myCarousel = document.querySelector("#myCarousel");
-                var carousel = new bootstrap.Carousel(myCarousel, {
-                interval: 1000,
-                wrap: true,
-                });
-                </script>
-                <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
-                <script src="assets/js/script.js"></script>
-                <!-- Optional JavaScript; choose one of the two! -->
-                <!-- Option 1: Bootstrap Bundle with Popper -->
-                <script
-                src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-                crossorigin="anonymous"
-                ></script>
-                <!-- Option 2: Separate Popper and Bootstrap JS -->
-                <!--
-                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-                -->
-              </body>
-            </html>
+                  </li>
+                  <li>
+                    <img
+                    onclick="getLink(this)"
+                    id="img"
+                    src="assets/img/urso-roupa.jpg"
+                    class="card-prod-img-mv"
+                    name="img"
+                    alt="..."
+                    />
+                  </li>
+                  <li>
+                    <a href="index.html">
+                      <img
+                      onclick="getLink(this)"
+                      id="img"
+                      src="assets/img/baby-praia.jpg"
+                      class="card-prod-img-mv"
+                      alt="produtos"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- fim mais vendidos -->
+          </div>
+          <!-- fim wrapper-->
+          <!-- INICIO FOOTER -->
+          <footer>
+            <div class="wrapper-footer bg-primary bg-gradient">
+              <div class="footer-social">
+                <a
+                  href="https://wa.me/5534998853940?text=Gostaria%20de%20saber%20mais%20sobre%20os%20produtos"
+                  target="_blank"
+                  >
+                  <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="https://www.facebook.com/acinacio/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >
+                  <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/adelson.inacio/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >
+                  <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="mailto:acinacio@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >
+                  <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </footer>
+          <!-- FIM FOOTER -->
+          <script>
+          var myCarousel = document.querySelector("#myCarousel");
+          var carousel = new bootstrap.Carousel(myCarousel, {
+          interval: 1000,
+          wrap: true,
+          });
+          </script>
+          <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+          <script src="assets/js/script.js"></script>
+          <!-- Optional JavaScript; choose one of the two! -->
+          <!-- Option 1: Bootstrap Bundle with Popper -->
+          <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+          crossorigin="anonymous"
+          ></script>
+          <!-- Option 2: Separate Popper and Bootstrap JS -->
+          <!--
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+          -->
+        </body>
+      </html>

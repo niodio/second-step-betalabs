@@ -6,15 +6,14 @@
 
 * {
   box-sizing: border-box;
-  margin: 0 ;
-  padding: 0 ;
+  margin: 0;
+  padding: 0;
   list-style: none;
   text-decoration: none;
   list-style-type: none;
   border: none;
   font-size: 14px;
 }
-
 
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -28,7 +27,7 @@ body {
   z-index: 999;
 }
 
-.nav-link{
+.nav-link {
   color: var(--corLink) !important;
 }
 
@@ -36,6 +35,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin: 2rem;
 }
 
@@ -43,16 +43,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 /*MAIS VENDIDOS*/
-.wrapper-col-mv{
-    display: flex;
+.wrapper-col-mv {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
 .card-prod-img-mv {
@@ -70,7 +68,7 @@ body {
 
 .wrapper-categoria {
   display: flex;
-  width: 100vw;
+  width: 80vw;
   flex-wrap: wrap;
 }
 
@@ -94,39 +92,38 @@ body {
 .wrapper-cards {
   display: flex;
   border: 1px solid red;
-  width: 60vw;
+  width: 70vw;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
 
-.card{
+.card {
   display: flex;
   flex-direction: row;
 }
 
 .card-prod {
-  margin: .5rem;
+  margin: 0.5rem;
 }
 
 .card-prod-img {
   width: 20vw;
-  height: 60vh;
+  height: 50vh;
 }
 
 .card-body {
   padding: 0 !important;
 }
 
-.descricao{
+.descricao {
   padding: 1rem 2rem;
 }
 
-.wrapper-pagination{
+.wrapper-pagination {
   display: flex;
   justify-content: center;
   margin: 2rem;
 }
-
 
 .btn {
   width: 100%;
